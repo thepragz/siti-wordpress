@@ -1,0 +1,269 @@
+/**
+ * 12.3 Comments
+ */
+
+.comments-area {
+	background-color: #fff;
+	margin:40px 0 20px;
+	border: 1px solid rgba(0,0,0,0.15);
+	border-top: 5px solid rgba(0,0,0,0.15);
+	padding: 20px;
+}
+
+h3#reply-title{margin-bottom:0;}
+
+.comments-area > :last-child {
+	margin-bottom: 0;
+}
+
+#comments h2{margin-top:0!important;padding-top:0!important;line-height:32px!important;}
+
+.comment-list + .comment-respond {
+	border-top: 1px solid #ddd;
+}
+
+.comment-list + .comment-respond,
+.comment-navigation + .comment-respond {
+	padding-top: 1.6em;
+}
+
+.comments-title,
+.comment-reply-title {
+	font-size: 18px!important;
+	font-weight:bold!important;
+	margin:0;
+	font-size: 1.8rem;
+	line-height: 1.3333;
+}
+
+.comments-title {
+	margin-bottom: 1.3333em;
+}
+
+ol.comment-list{margin:0;padding:0;}
+ol.comment-list li{margin:0 0 20px;}
+
+.comment-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.comment-list article,
+.comment-list .pingback,
+.comment-list .trackback {
+	border-top: 1px solid #eaeaea;
+	border-top: 1px solid rgba(51, 51, 51, 0.1);
+	padding: 1.6em 0;
+}
+
+.comment-list .children {
+	list-style: none;
+	margin: 0;
+}
+
+.comment-list .children > li {
+	padding-left: 0.8em;
+}
+
+.comment-author {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	margin-bottom: 0.4em;
+}
+
+.comment-author a:hover {
+	border-bottom: 1px solid #707070;
+	border-bottom: 1px solid rgba(51, 51, 51, 0.7);
+}
+
+.comment-author .avatar {
+	float: left;
+	height: 50px;
+	margin-right: 0.8em;
+	margin-bottom: 0.8em;
+	width: 50px;
+}
+
+.bypostauthor > article .fn:after {
+	content: "\f304";
+	position: relative;
+	top: 5px;
+	left: 3px;
+}
+
+.comment-metadata,
+.pingback .edit-link {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Noto Sans", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+
+.comment-metadata a,
+.pingback .edit-link a {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+}
+
+.comment-metadata a:hover,
+.pingback .edit-link a:hover {
+	border-bottom: 1px solid #333;
+}
+
+.comment-metadata a:hover,
+.comment-metadata a:focus,
+.pingback .edit-link a:hover,
+.pingback .edit-link a:focus {
+	color: #333;
+}
+
+.comment-metadata {
+	margin-bottom: 1.6em;
+}
+
+.comment-metadata .edit-link {
+	margin-left: 1em;
+}
+
+.pingback .edit-link {
+	margin-left: 1em;
+}
+
+.pingback .edit-link:before {
+	top: 5px;
+}
+
+.comment-content ul,
+.comment-content ol {
+	margin: 0 0 1.6em 1.3333em;
+}
+
+.comment-content li > ul,
+.comment-content li > ol {
+	margin-bottom: 0;
+}
+
+.comment-content > :last-child {
+	margin-bottom: 0;
+}
+
+.comment-list .reply {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+.comment-list .reply a {
+	border:0;
+	color: #fff;
+	display: inline-block;
+	font-weight: 700;
+	background:red;
+	line-height: 1;
+	margin-top: 0em;
+	margin-bottom: 1em;
+	padding: 0.4167em 0.8333em;
+	text-transform: uppercase;
+}
+
+.comment-list .reply a:hover,
+.comment-list .reply a:focus {
+	border:0;
+	color: #fff;
+	outline: 0;
+}
+
+.comment-form {
+	padding-top: 0;
+}
+
+.comment-form label {
+	color: #707070;
+	color: rgba(51, 51, 51, 1);
+	font-size: 13px;
+	font-weight: 700;
+	display: block;
+	line-height: 2.1;
+	text-transform: uppercase;
+	cursor:pointer;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"]
+{
+	width: 99%;
+	padding:7px;
+	background:#fff;
+	border:1px solid rgba(0,0,0,0.15);
+}
+
+.comment-form input[type="submit"]{padding:10px;cursor:pointer;}
+
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	margin-bottom: 2em;
+}
+
+.logged-in-as a:hover {
+	border-bottom: 1px solid #333;
+}
+
+.no-comments {
+	border-top: 1px solid #eaeaea;
+	border-top: 1px solid rgba(51, 51, 51, 0.1);
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 700;
+	padding-top: 1.6em;
+}
+
+.comment-navigation + .no-comments {
+	border-top: 0;
+}
+
+.form-allowed-tags code {
+	font-family: Inconsolata, monospace;
+}
+
+.form-submit {
+	margin-bottom: 0;
+}
+
+.required {
+	color: #c0392b;
+}
+
+.comment-reply-title small {
+	font-size: 100%;
+}
+
+.comment-reply-title small a {
+	border: 0;
+	float: right;
+	height: 32px;
+	overflow: hidden;
+	width: 26px;
+}
+
+.comment-reply-title small a:before {
+	content: "\f405";
+	font-size: 32px;
+	position: relative;
+	top: -3px;
+}
+
+textarea#comment{
+	width:99%;
+	height:200px;
+	padding:10px;
+	background:#fff;
+	border:1px solid rgba(0,0,0,0.15);
+}

@@ -1,0 +1,163 @@
+/*######################################################## WOOCOMMERCE GENERAL */
+
+span.out-of-stock{color:red;}
+span.in-stock{color:green;}
+.select2-container{margin-bottom:15px;}
+
+/*######################################################## WOOCOMMERCE ARCHIVE PAGE */
+
+.woocommerce .woocommerce-ordering select{margin-top:-10px;font-size:12px;}
+
+body.archive.woocommerce-page #container{width:1140px;margin:auto;}
+
+body.archive.woocommerce-page{}
+body.archive.woocommerce-page #content{}
+
+body.archive.woocommerce-page #content li.product a.button{display:none;}
+body.page-id-260 li.product a.button{display:none;}
+
+body.archive.woocommerce-page li.product-category,
+body.archive.woocommerce-page li.product-category{text-align:center;}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product{text-align:center;}
+.woocommerce ul.products li.product .price{font-size:14px;font-weight:bold;}
+
+.woocommerce ul.products li.product h2{font-size:14px;line-height:22px;font-weight:bold;color:#B25900;}
+.woocommerce ul.products li.product h2:hover{color:#333;}
+.woocommerce ul.products li.product a img{border:0;}
+
+.woocommerce .woocommerce-ordering,
+.woocommerce .woocommerce-result-count{font-size:11px;text-transform:uppercase;}
+
+.term-description{margin-bottom:40px!important;display:block;overflow:hidden;clear:both;}
+.term-description img{margin-bottom:30px!important;}
+.term-description hr{border-top:1px solid #ccc;margin:30px 0 0!important;}
+.term-description iframe{margin-right:40px;}
+
+.woocommerce ul.products li.product .stock,
+.woocommerce-page ul.products li.product .stock,
+.woocommerce ul.products li.product .out-of-stock,
+.woocommerce-page ul.products li.product .out-of-stock {
+    color: green;
+    font-size: 11px;
+	font-weight:bold;
+	text-transform:uppercase;
+    padding: 0 12px 6px;
+}
+
+/* Add this if you want Out of Stock to appear in red */
+.woocommerce ul.products li.product .out-of-stock,
+.woocommerce-page ul.products li.product .out-of-stock {
+    color: #f45f16;
+}
+
+.woocommerce ul.products li.product .price del{color:red;}
+.woocommerce div.product p.price del{color:red;}
+
+.woocommerce .products .star-rating{margin-left:auto!important;margin-right:auto!important;}
+
+/* SIDEBAR */
+
+body.archive.woocommerce-page aside#sidebar{float:left;width:20%;}
+body.archive.woocommerce-page aside#sidebar .sidebar{padding-right:24px;}
+
+/*######################################################## WOOCOMMERCE TITLE */
+
+h1.page-title{font-size:16px;letter-spacing:0;font-weight:700;text-transform:uppercase;border-bottom:0px solid #ddd;padding-bottom:0px;margin-bottom:15px;}
+h1.page-title a{text-decoration:none;color:#333;}
+
+/*######################################################## WOOCOMMERCE BREADCRUMB */
+
+.woocommerce .woocommerce-breadcrumb{margin:15px 0 25px;font-family:Arimo;font-size:11px;}
+
+/*######################################################## WOOCOMMERCE PAGINATION */
+
+.woocommerce nav.woocommerce-pagination ul li a, .woocommerce nav.woocommerce-pagination ul li span{padding:10px!important;}
+
+/*######################################################## SINGLE PRODUCT CATALOG */
+
+body.single.single-product.woocommerce-page #container{width:1140px;margin:auto;}
+
+body.single.single-product.woocommerce-page h1.product_title{font-size:22px;font-weight:bold;}
+body.single.single-product.woocommerce-page p.price{margin:10px 0;font-weight:bold;}
+
+.woocommerce-Tabs-panel.woocommerce-Tabs-panel--description.panel.entry-content.wc-tab h2{font-weight:bold;font-size:16px;margin:0 0 15px;}
+#tab-additional_information h2{font-weight:bold;font-size:16px;margin:0 0 15px;}
+.woocommerce table.shop_attributes td{font-style:normal!important;}
+
+.summary.entry-summary div[itemprop="description"]{}
+.summary.entry-summary div[itemprop="description"] ul{margin:20px 0 15px 18px!important;padding:0;}
+.summary.entry-summary div[itemprop="description"] ul li{margin:0;padding:0;}
+
+.woocommerce div.product p.stock{font-size:13px!important;font-weight:bold;}
+
+.related.products{border-top:1px solid #ddd;padding-top:40px;}
+.related.products h2{font-weight:bold;font-size:16px;margin:0 0 35px;text-align:center;}
+.related.products a.button.add_to_cart_button.ajax_add_to_cart{display:none;}
+.related.products a.button.ajax_add_to_cart{display:none;}
+
+h2.woocommerce-Reviews-title{font-weight:bold;font-size:16px;margin:0 0 15px;}
+#respond h3{font-weight:bold;font-size:16px;margin:0 0 15px!important;}
+.woocommerce #review_form #respond p{margin:10px 0!important;}
+
+.woocommerce #content div.product div.summary,
+.woocommerce div.product div.summary,
+.woocommerce-page #content div.product div.summary,
+.woocommerce-page div.product div.summary{width:50%;}
+
+.woocommerce div.product form.cart div.quantity input{border:1px solid #ccc;padding:4px 4px 3px;margin-right:7px;}
+button.single_add_to_cart_button{text-transform:capitalize;}
+
+/* VARIATIONS */
+
+table.variations{background:transparent;}
+table.variations label{color:#000;font-size:12px;padding-top:6px;}
+table.variations td.value select{padding:5px;margin-bottom:10px;}
+
+a.reset_variations{color:#fff;background:red;padding:3px;}
+.woocommerce-variation-price{margin-bottom:20px;}
+
+span.sku_wrapper{display:block;}
+
+button.single_add_to_cart_button{text-transform:uppercase;}
+
+.cloud-zoom-big {
+	border:3px solid #ccc!important;
+	overflow:hidden;
+	
+	-webkit-border-radius: 0!important;
+  	-moz-border-radius: 0!important;
+  	border-radius: 0!important;
+  		
+	-moz-box-shadow: 0 0 0 0 #888!important;
+ 	-webkit-box-shadow: 0 0 0 0 #888!important;
+ 	box-shadow: 0 0 0 0 #888!important;	
+}
+
+div.ppt{display:none!important;}
+
+p.comment-form-comment textarea{background:#eee;padding:10px;border:1px solid rgba(0,0,0,0.1);margin-top:10px;}
+.woocommerce div.product .woocommerce-tabs ul.tabs li{padding:0 1.3em;}
+
+/* PHONE NUMBER FORMATTER */
+
+.intl-tel-input{width:100%;}
+.intl-tel-input .selected-flag{height:34px;}
+.intl-tel-input .selected-flag .iti-flag{top:-2px;}
+.intl-tel-input .selected-flag .iti-arrow{top:15px;}
+
+#view-order-barcode{margin:0 0 40px!important;}
+
+th.product-remove{text-indent:-9999px;}
+th.product-thumbnail{text-indent:-9999px;}
+
+body.woocommerce-cart input#coupon_code{width:50%;}
+
+/* SOCIAL LOGIN */
+
+.woocommerce-MyAccount-content .wc-social-login-profile{margin-top:30px;}
+
+/* SOCIAL LOGIN ###########################################################################*/
+
+a.button-social-login{font-size:10px!important;text-transform:uppercase!important;letter-spacing:1px;font-weight:400!important;}

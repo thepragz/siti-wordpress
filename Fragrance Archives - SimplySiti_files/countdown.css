@@ -1,0 +1,16 @@
+/*######################################################## COUNTDOWN */
+
+#countdown-sale{text-align:center;}
+#countdown-sale span.days,
+#countdown-sale span.hours,
+#countdown-sale span.minutes,
+#countdown-sale span.seconds{display:inline-block;color:#fff;background:#000;padding:20px;font-weight:bold;font-size:21px;margin:5px;width:115px;height:115px;border-radius:50%;line-height:30px;}
+
+@media only screen and (max-width:767px) {
+
+	#countdown-sale span.days,
+	#countdown-sale span.hours,
+	#countdown-sale span.minutes,
+	#countdown-sale span.seconds{display:inline-block;color:#fff;background:#000;padding:10px;font-weight:bold;font-size:12px;margin:5px 2px;width:65px;height:65px;border-radius:50%;line-height:20px;}
+	
+}

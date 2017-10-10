@@ -1,0 +1,125 @@
+/* CHECKOUT ###########################################################################*/
+
+body.woocommerce-checkout span.checkout-hide{display:none;}
+body.woocommerce-checkout span.checkout-display-yes{display:inherit;}
+body.woocommerce-checkout input[type="checkbox"]{cursor:pointer;}
+body.woocommerce-checkout .the-content-modified{padding:0;background:#fff;border:0;}
+
+body.woocommerce-checkout .the-content{padding-top:0;}
+body.woocommerce-checkout form .form-row{margin-bottom:0!important;}
+
+/* CHECKOUT HIDE ###########################################################################*/
+
+body.woocommerce-checkout #footer-newsletter{display:none;}
+
+/* CHECKOUT MESSAGE ###########################################################################*/
+
+body.woocommerce-checkout .woocommerce-info{background:#eee;}
+body.woocommerce-checkout .woocommerce-error{background:#eee;}
+
+/* CHECKOUT ORDER RECEIVED ###########################################################################*/
+
+body.woocommerce-order-received .the-content-modified{background:#eee;padding:15px;}
+body.woocommerce-order-received .woocommerce-info{background:#fff;}
+body.woocommerce-order-received .order_details li{font-size:11px;}
+body.woocommerce-order-received .order_details li strong{font-size:12px;letter-spacing:0.5px;margin-top:4px;}
+body.woocommerce-order-received ul.order_details{margin-left:0;padding-left:15px;border-left:3px solid red;}
+body.woocommerce-order-received .order_details li:first-child.order{padding-left:0;}
+body.woocommerce-order-received h3{color:#333;font-size:14px;}
+
+body.woocommerce-order-received .col2-set.addresses{overflow:hidden;}
+body.woocommerce-order-received .col2-set.addresses .col-1{width:30%;float:left;}
+body.woocommerce-order-received .col2-set.addresses .col-2{width:30%;float:left;}
+
+/* CHECKOUT HALF ###########################################################################*/
+
+.col2-set#customer_details{width:55%;background:#eee;float:left;padding:15px;}
+#order_review.woocommerce-checkout-review-order{width:41%;float:right;}
+h3#order_review_heading{float:right;width:41%;text-transform:capitalize!important;margin:0 0 5px;color:#000;}
+
+/* CHECKOUT COUPON ###########################################################################*/
+
+form.checkout_coupon{}
+form.checkout_coupon .form-row-first{width:inherit;float:left;}
+form.checkout_coupon .form-row-last{margin-left:15px;width:inherit;float:left;margin-top:1px;}
+
+/* CHECKOUT TERMS & CONDITIONS ###########################################################################*/
+
+p.form-row.terms.wc-terms-and-conditions{padding-right:0!important;padding-bottom:0!important;float:right!important;margin-bottom:10px!important;}
+p.form-row.terms.wc-terms-and-conditions span{font-weight:bold!important;}
+#payment.woocommerce-checkout-payment input.woocommerce-form__input.woocommerce-form__input-checkbox.input-checkbox{margin:6px 0 0 -20px;}
+#payment.woocommerce-checkout-payment label.woocommerce-form__label.woocommerce-form__label-for-checkbox.checkbox{margin-left:20px;}
+
+/* CHECKOUT BLOCK OVERLAY ###########################################################################*/
+
+body.woocommerce-checkout .blockUI.blockOverlay{z-index:9999!important;background:rgba(0,0,0,0.6)!important;border:1px solid #fff!important;}
+body.woocommerce-checkout form.processing .blockUI.blockOverlay{z-index:9999!important;background:rgba(0,0,0,0.9)!important;border:0!important;height:100%!important;width:100%!important;position:fixed!important;}
+body.woocommerce-checkout form.processing .blockUI.blockMsg.blockElement{z-index:99999!important;background:rgba(0,0,0,1)!important;opacity:1!important;}
+
+/* CHECKOUT LOGIN ###########################################################################*/
+
+.woocommerce-checkout form.login{background:#eee;margin:0 0 15px!important;padding:15px;border:0;border-radius:0;}
+.woocommerce-checkout form.login p.lost_password{margin:10px 0 0;margin-left:4px;font-size:11px;}
+label[for="rememberme"]{margin-left:10px;font-weight:normal;}
+
+.woocommerce-checkout .wc-social-login.form-row-wide p{margin-bottom:10px;}
+
+/* CHECKOUT COUPON ###########################################################################*/
+
+form.checkout_coupon .form-row-first{width:inherit;float:left;}
+form.checkout_coupon .form-row-last{margin-left:5px;width:inherit;float:left;margin-top:1px;}
+.woocommerce-checkout form.checkout_coupon{background:#eee;margin:0 0 15px!important;padding:15px 15px 7px;border:0;border-radius:0;}
+body.woocommerce-cart input.button.wc_points_rewards_apply_discount{float:left;}
+
+/* CHECKOUT CUSTOMER DETAILS ###########################################################################*/
+
+.woocommerce-checkout #customer_details{}
+.woocommerce-checkout #customer_details h3{margin-top:0!important;color:#000;}
+.woocommerce-checkout #customer_details h3#ship-to-different-address{margin-left:20px;font-weight:normal!important;}
+.woocommerce-checkout #customer_details h3#ship-to-different-address label{font-weight:bold!important;}
+.woocommerce-checkout #customer_details .col-1{width:100%;float:none;margin-bottom:20px;}
+.woocommerce-checkout #customer_details .col-2{width:100%;float:none;}
+
+/* CHECKOUT PAYMENT ###########################################################################*/
+
+li.wc_payment_method{margin-bottom:10px!important;}
+.woocommerce-checkout #payment ul.payment_methods li input{margin-right:5px;vertical-align:-2px;}
+.woocommerce-checkout #payment ul.payment_methods li label{margin-bottom:0;}
+
+/* CHECKOUT PAYMENT MOLPAY ###########################################################################*/
+
+li.payment_method_molpay{}
+li.payment_method_molpay label[for="payment_method_molpay"]{display:inline;}
+li.payment_method_molpay label[for="payment_method_molpay"] img{margin:5px 0 0!important;margin-left:23px!important;}
+
+/* CHECKOUT PAYMENT PAYPAL ###########################################################################*/
+
+li.payment_method_paypal{}
+li.payment_method_paypal img{margin:0!important;width:230px;height:auto!important;max-height:inherit!important;background:#fff;border:1px solid #dcdcdc;padding:5px;display:block;}
+li.payment_method_paypal a.about_paypal{display:none;}
+
+/* CHECKOUT PAYMENT BILLPLZ ###########################################################################*/
+
+li.payment_method_billplz{}
+li.payment_method_billplz label[for="payment_method_billplz"]{display:inline;}
+li.payment_method_billplz label[for="payment_method_billplz"] img{margin:5px 0 0!important;margin-left:0!important;display:block!important;}
+
+/* CHECKOUT ORDER RECEIVED ###########################################################################*/
+
+body.woocommerce-order-received .col-sm-12{margin:0 auto!important;width:60%;float:none;background:#eee;padding-top:15px;}
+body.woocommerce-order-received .the-content-modified{background:#eee;padding:15px;}
+body.woocommerce-order-received .woocommerce-info{background:#fff;}
+body.woocommerce-order-received .order_details li{font-size:11px;}
+body.woocommerce-order-received .order_details li strong{font-size:12px;letter-spacing:0;margin-top:4px;}
+body.woocommerce-order-received ul.order_details{margin-left:0;padding-left:15px;border-left:3px solid red;}
+body.woocommerce-order-received .order_details li:first-child.order{padding-left:0;}
+body.woocommerce-order-received h3{color:#333;font-size:14px;}
+
+body.woocommerce-order-received .col2-set.addresses{overflow:hidden;}
+body.woocommerce-order-received .col2-set.addresses .col-1{width:50%;float:left;}
+body.woocommerce-order-received .col2-set.addresses .col-2{width:50%;float:left;}
+
+/* CHECKOUT REVIEWS ORDER ###########################################################################*/
+
+#order_review.woocommerce-checkout-review-order{width:41%;float:right;}
+h3#order_review_heading{float:right;width:41%;text-transform:capitalize!important;}

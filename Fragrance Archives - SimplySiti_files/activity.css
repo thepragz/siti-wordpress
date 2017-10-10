@@ -1,0 +1,19 @@
+/*######################################################## ACTIVITY */
+
+#activity-wrapper .ac-title{font-size:18px;}
+#activity-wrapper .ac-title a{font-weight:bold;}
+
+#activity-wrapper .ac-image{margin:15px 0 20px;}
+#activity-wrapper .ac-image img{height:auto;width:100%;}
+
+#activity-wrapper .ac-metadata{margin:5px 0 10px;}
+#activity-wrapper .ac-metadata span{font-size:12px;margin-right:5px;}
+#activity-wrapper .ac-metadata span.glyphicon-folder-open{margin-left:10px;}
+
+#activity-wrapper .the-content-modified{}
+#activity-wrapper .the-content-modified img{max-width:100%;height:auto;}
+
+#activity-wrapper #share-button{margin-bottom:15px;}
+#activity-wrapper #share-button a{text-decoration:none;}
+
+a.back-to-ac{text-decoration:none;}

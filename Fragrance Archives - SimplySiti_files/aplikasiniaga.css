@@ -1,0 +1,134 @@
+/*######################################################## PRODUCT LISTING */
+
+.product-listing{overflow:hidden;padding:30px 0;}
+.product-listing h2#main-title{font-size:16px;letter-spacing:0;font-weight:700;text-transform:uppercase;border-bottom:2px solid #ddd;padding-bottom:10px;margin-bottom:25px;text-align:left;margin-top:0;}
+.product-listing .fix div{display:inline-block;margin:0 20px 20px;margin-left:0;text-align:center;}
+.product-listing img{height:auto;width:210px;background:#fff;border:1px solid #ddd;margin:0 0 15px;}
+.product-listing .fix{}
+.product-listing p.title-product{margin-bottom:0;font-weight:bold;}
+.product-listing span.out-of-stock{color:red;}
+.product-listing span.in-stock{color:green;}
+
+/*######################################################## THE CONTENT */
+
+.the-content{line-height:20px;padding:30px 0;}
+
+.the-content h1,
+.the-content h2,
+.the-content h3,
+.the-content h4,
+.the-content h5,
+.the-content h6
+{font-size:16px;font-weight:700;letter-spacing:0px;margin-bottom:15px;margin-top:0;}
+.the-content h1{font-size:16px;letter-spacing:0;font-weight:700;text-transform:uppercase;margin-bottom:15px;}
+.the-content h1 a{text-decoration:none;}
+
+.the-content fieldset{margin-top:30px;}
+.the-content legend{font-size:16px;letter-spacing:0;font-weight:700;text-transform:uppercase;border-bottom:2px solid #ddd;padding-bottom:5px;margin-bottom:20px;}
+
+.the-content a{text-decoration:underline;}
+.the-content a:hover{text-decoration:none;}
+
+/*######################################################## WOOCOMMERCE TABLE */
+
+table{background:#fff;}
+
+/*######################################################## WOOCOMMERCE CART */
+
+input#coupon_code{width:100%;}
+.woocommerce-cart table.cart img{width:100px;height:auto;margin:5px auto;}
+.woocommerce .quantity input.qty{border:1px solid #ddd;padding:5px;}
+.woocommerce td.product-name dl.variation dd{padding-bottom:0;margin-bottom:0;}
+
+/*######################################################## WOOCOMMERCE CHECKOUT */
+
+body.woocommerce-checkout{}
+body.woocommerce-checkout .col-sm-8.col-md-offset-2{background:#eee;}
+body.woocommerce-checkout .col-sm-8.col-md-offset-2 .the-content{padding:15px 0;}
+
+body.woocommerce-checkout .woocommerce .col2-set .col-1,
+body.woocommerce-checkout .woocommerce-page .col2-set .col-1{float:none;width:100%;margin:0 0 20px;}
+
+body.woocommerce-checkout .woocommerce .col2-set .col-2,
+body.woocommerce-checkout .woocommerce-page .col2-set .col-2{float:none;width:100%;margin:0 0 20px;}
+
+.woocommerce-checkout #payment{background:#fff;border:1px solid rgba(0,0,0,0.08);border-radius:2px;}
+
+ul.woocommerce-thankyou-order-details.order_details{background:#fff;padding-left:15px;}
+ul.woocommerce-thankyou-order-details.order_details li{padding-top:15px;padding-bottom:15px;font-size:11px;}
+ul.woocommerce-thankyou-order-details.order_details li strong{font-size:12px;margin-top:5px;}
+
+body.woocommerce-checkout .create-account{margin-top:20px;}
+
+/*######################################################## WOOCOMMERCE FORM */
+
+.woocommerce form .form-row{padding:0;}
+.woocommerce form .form-row .input-text,
+.woocommerce-page form .form-row .input-text
+{border:1px solid #ddd!important;padding:7px;margin-bottom:10px!important;}
+
+.woocommerce form.checkout_coupon,
+.woocommerce form.login,
+.woocommerce form.register
+{border-radius:0;margin-top:15px;border:0;background:none;padding:0;}
+
+a.button{font-family:'Arimo',sans-serif!important;letter-spacing:0.5px;background:#2680BE;color:#fff;}
+input[type="submit"].button{margin-top:10px;text-transform:uppercase;font-family:'Arimo',sans-serif;letter-spacing:0.5px;background:#2680BE;color:#fff;}
+
+body.woocommerce-checkout input[type="submit"].button{margin-top:2px;}
+
+/*######################################################## WOOCOMMERCE ADDRESS */
+
+address{margin-bottom:0;}
+.col-1.woocommerce-Address{width:100%!important;margin-top:10px;}
+.col-2.woocommerce-Address{width:100%!important;border-top:1px solid #ddd;margin-top:20px;padding-top:20px;}
+a.edit{margin-top:0;color:#fff!important;background:red;text-transform:uppercase;font-family:'Arimo',sans-serif!important;letter-spacing:0px;text-decoration:none!important;padding:5px 8px 4px;font-weight:700;}
+a:hover.edit{color:rgba(255,255,255,0.7)!important;}
+
+/*######################################################## WOOCOMMERCE LOGIN/REGISTER */
+
+#customer_login h2{margin-bottom:0;}
+label[for="rememberme"]{font-weight:normal;display:block!important;margin:15px 0 0;}
+label[for="rememberme"] input{float:left;margin-top:5px;margin-right:5px;}
+p.lost_password a{color:red;}
+
+/*######################################################## WOOCOMMERCE NOTIFICATION */
+
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message{background:#fff;margin-bottom:15px!important;}
+
+/*######################################################## WOOCOMMERCE CART */
+
+p.return-to-shop{margin-top:20px;}
+
+/*######################################################## WOOCOMMERCE MY ACCOUNT */
+
+.woocommerce table.my_account_orders{font-size:14px;}
+
+/*######################################################## WOOCOMMERCE SIDEBAR */
+
+nav.woocommerce-MyAccount-navigation{}
+nav.woocommerce-MyAccount-navigation ul{list-style:none;margin:0;padding:0;background:#f2f2f2;margin-right:20px;}
+nav.woocommerce-MyAccount-navigation ul li{padding:8px 10px;border-bottom:1px solid #ddd;}
+nav.woocommerce-MyAccount-navigation ul li:last-child{border-bottom:0;}
+nav.woocommerce-MyAccount-navigation ul li a{text-decoration:none;font-weight:bold;}
+
+li.woocommerce-MyAccount-navigation-link--customer-logout a:before{content:"\f1ce";font-family:"FontAwesome";padding-right:7px;font-weight:normal;color:red;}
+
+/*######################################################## SIDEBAR */
+
+aside#sidebar{margin-top:30px;margin-bottom:30px;}
+aside#sidebar h3{font-size:16px;letter-spacing:0;font-weight:700;text-transform:uppercase;border-bottom:2px solid #ddd;padding-bottom:10px;margin-bottom:25px;}
+aside#sidebar ul{margin:0;padding:0;margin-left:17px;}
+
+/*######################################################## BOTTOM */
+
+#bottom{margin:0 190px;padding:20px 0 10px;margin-top:20px;border-top:1px solid #ddd;}
+#bottom span{display:inline-block;vertical-align:middle;height:60px;margin:0 5px;border-radius:2px;}
+#bottom img{padding:10px;}
+#bottom img.fpx{padding-top:11px;}
+#bottom img.paypal{padding-top:18px;}
+#bottom img.visa{padding-top:18px;}
+#bottom img.mastercard{padding-top:14px;}
+#bottom img.rapidssl{margin-top:-5px;}
